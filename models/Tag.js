@@ -12,12 +12,10 @@ Tag.init(
       allowNull: false,
       primaryKey: true,
       autoIcrement: true,
-    }
-    {
+    },
       tag_name: {
         type: DataTypes.STRING,
-      }
-    }
+      },
   },
   {
     sequelize,
